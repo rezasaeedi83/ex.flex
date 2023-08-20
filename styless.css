@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.container1{
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+}
+
+.container1 .item{
+    background-color: purple;
+    margin: 5px;
+}
+
+.container2{
+    height: 300px;
+    border: 1px solid gray;
+    display: flex;
+}
+
+.container2 .item{
+    width: 50%;
+    background-color: orange;
+    margin: 5px;
+}
+
+.container2 .parent-item{
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .parent-item div{
+    height: 50%;
+    margin: 5px;
+    background-color: blue;
+} 
+
+.container3{
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+}
+
+.container3 div{
+    width: 50%;
+    background-color: greenyellow;
+    margin: 5px;
+}
